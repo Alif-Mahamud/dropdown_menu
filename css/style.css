@@ -1,0 +1,72 @@
+/* all commmon css start  */
+*{
+    margin: 0; 
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* all commmon css end */
+
+
+/* navbar_part_start */
+.abc{
+
+    background: #FCB246;
+    text-align: center;
+}
+.abc a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.abc i{
+    font-size: 14px;
+}
+.abc a:hover{
+    color: #fff;
+    transition: .4s;
+}
+.dropdown_container{
+ display: inline-block;
+ position: relative;
+}
+.dropdown_container a i{
+    padding-left: 10px;
+}
+.dropdown_content{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background: #FCB246;
+    text-align: left;
+    min-width: 250px;
+    display: none;
+}
+.dropdown_content a{
+    display:block;
+}
+.dropdown_container:hover .dropdown_content{
+display: block;
+ transition: .4s;
+}
+.dropdown_content a:hover{
+    color: #fff;
+     transition: .4s;
+}
+/* navbar_part_end */
+
